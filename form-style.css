@@ -1,0 +1,71 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body .container {
+    position: relative;
+    align-items: center;
+    max-width: 770px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media (max-width: 768px) {
+    * {
+        max-width: 430px;
+    }
+    /* body .container {
+        margin-top: 0;
+        margin-right: 0;
+    } */
+    .container .checkbox {
+        display: inline-block;
+    }
+    
+}
+.container img {
+    padding-top: 2rem;
+    width: 20vh;
+}
+.container input[type="text"] {
+    outline-style: none;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: rgb(230, 231, 233);
+    border: 0; 
+}
+.container .checkbox input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+.container .checkbox label {
+    font-size: 17px;
+    transform: translateY(-4px);
+}
+form .row {
+    padding-bottom: 10px;
+}
+form label {
+    padding-bottom: 5px;
+}
+form input {
+    width: 100%
+}
+.container input[type="submit"] {
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+    height: 3rem;
+    background-color: #f7941e;
+}
+.container .stars i {
+    margin-top: 1rem;
+    color: #ccc; /* Default color for unselected */
+    font-size: 30px;
+    margin-right: 15px;
+    margin-bottom: 1rem;
+}
+    
